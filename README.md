@@ -17,11 +17,11 @@
   
 ### Files
 * ```example.ino```
-  * Code based on Arduino core for ESP32.
+  * An example code based on Arduino core for ESP32.
 * ```SlowSoftI2CMaster.cpp```, ```SlowSoftI2CMaster.h```
   * Customized software I2C library for ESP32.
-  * Object-Oriented to support multiple I2C devices at once.
+  * Object-Oriented to support multiple I2C devices simultaneously.
 * ```SoftWire.h```
-  * A wrapper to use ```SlowSoftI2CMaster``` as Wire.h.
+  * A wrapper to use ```SlowSoftI2CMaster``` like Wire.h.
 * ```VL53L0X.cpp```, ```VL53L0X.h```
   * Customized VL53L0X library to support software I2C and to support multiple sensors.
